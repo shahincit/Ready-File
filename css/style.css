@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none !important;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    border: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+address {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+/*@font-face {
+  font-family: dosis_regular;
+  src: url(../fonts/dosis/Dosis-Regular.otf);
+}
+@font-face {
+  font-family: dosis_bold;
+  src: url(../fonts/dosis/Dosis-Bold.ttf);
+}
+@font-face {
+  font-family: dosis_medium;
+  src: url(../fonts/dosis/Dosis-Medium.ttf);
+}
+@font-face {
+  font-family: dosis_light;
+  src: url(../fonts/dosis/Dosis-Light.ttf);
+}
+@font-face {
+  font-family: dosis_semibold;
+  src: url(../fonts/dosis/Dosis-SemiBold.ttf);
+}
+ dosis font family ends 
+@font-face {
+  font-family: lato_regular;
+  src: url(../fonts/lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: lato_italic;
+  src: url(../fonts/lato/Lato-Italic.ttf);
+}
+@font-face {
+  font-family: lato_bold;
+  src: url(../fonts/lato/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: lato_semibold;
+  src: url(../fonts/lato/Lato-Semibold.ttf);
+}
+@font-face {
+  font-family: lato_light;
+  src: url(../fonts/lato/Lato-Light.ttf);
+}*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* header_part css start */
+.menu_section{
+    background: #02918c;
+}
+.menu_part li a{
+    color: #fff;
+    padding: 0px 15px;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+}
+.banner_part{
+
+}
+.carousel-item img{
+    max-height: 600px;
+}
+.carouse_po{
+  bottom:260px;
+}
+.about_us{
+    padding: 60px 0px 0px;
+}
+.abs{
+    background: #02918c;
+}
+.about_content h2{
+    color: #02918c;
+    margin-bottom: 25px;
+    font-size: 46px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.about_content img{
+    margin-bottom: 25px;
+}
+.about_content p{
+    color: #7e8287;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.about_content span{
+    color: #7e8287;
+    font-size: 23px;
+    font-weight: 900;
+    text-align: justify;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox=\'0 0 32 32\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath stroke=\'rgba(255, 255, 255, 0.76)\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-miterlimit=\'10\' d=\'M4 8h24M4 16h24M4 24h24\'/%3E%3C/svg%3E");
+}
+.about_con_part i{
+     color: #02918c;
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.about_con_part h4{
+     color: #7e8287;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.about_con_part p{
+     color: #7e8287;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.service_part{
+    background: url(../images/service_banner.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 60px 0px;
+}
+.gl_img{
+    position: relative;
+    transition: all linear .3s;
+}
+.gl_img img{
+   width: 100%; 
+}
+.ovelay_gly{
+    position: absolute;
+    left: 0%;
+    bottom: 10%;
+    content: '';
+    height: 80%;
+    width: 0%;
+     transition: all linear .3s;
+    background: rgba(2, 145, 140, 0.72);
+    visibility: hidden;
+}
+.gl_img:hover .ovelay_gly{
+    visibility: visible;
+    width: 80%;
+    left: 10%;
+    transition: all linear .3s;
+} 
+.ab
+
+
+/* all responsive part css start */
+
+/* extra large divice */
+@media (min-width: 1200px) {
+  
+}
+@media (min-width: 992px) and (max-width:1199px)  {
+ 
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+ .carouse_po {
+      bottom: 161px;
+    }
+}
+@media (min-width: 576px) and (max-width:767px) {
+    
+ 
+}
+@media (max-width: 575px) {
+ 
+}
+
